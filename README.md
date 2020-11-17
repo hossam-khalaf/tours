@@ -1,1 +1,2 @@
-## React Projects Starter APP
+## Api app with react
+ following along with john smilga
