@@ -226,3 +226,21 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
 }
+
+.navbar {
+  background: #333;
+  color: #eee;
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin: 0 auto;
+}
+.item {
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  background: #fff;
+  color: #333;
+}

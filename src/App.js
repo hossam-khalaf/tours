@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Loading from './Loading';
 import Tours from './Tours';
+import Navbar from './Navbar';
 // Api
 const url = 'https://course-api.com/react-tours-project';
 
@@ -52,9 +53,12 @@ function App() {
   }
 
   return (
-    <main>
-      <Tours tours={tours} removeTour={removeTour} />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Tours tours={tours} removeTour={removeTour} />
+      </main>
+    </>
   );
 }
 
